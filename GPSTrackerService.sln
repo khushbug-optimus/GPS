@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPSTrackerService", "GPSTrackerService\GPSTrackerService.csproj", "{10EEB991-5544-4BCB-87CB-21CD52060355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPSTrackerDal", "GPSTracker\GPSTrackerDal.csproj", "{BD650B72-9787-4B4E-9996-F2C6E24108AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPSTrackerBal", "GPSTrackerBal\GPSTrackerBal.csproj", "{EC12690D-9346-4CBC-8402-A01B210789CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITest", "APITest\APITest.csproj", "{1D67FC19-1BBE-4598-91FD-1CEC2D2FA20F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10EEB991-5544-4BCB-87CB-21CD52060355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10EEB991-5544-4BCB-87CB-21CD52060355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10EEB991-5544-4BCB-87CB-21CD52060355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10EEB991-5544-4BCB-87CB-21CD52060355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD650B72-9787-4B4E-9996-F2C6E24108AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD650B72-9787-4B4E-9996-F2C6E24108AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD650B72-9787-4B4E-9996-F2C6E24108AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD650B72-9787-4B4E-9996-F2C6E24108AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC12690D-9346-4CBC-8402-A01B210789CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC12690D-9346-4CBC-8402-A01B210789CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC12690D-9346-4CBC-8402-A01B210789CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC12690D-9346-4CBC-8402-A01B210789CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D67FC19-1BBE-4598-91FD-1CEC2D2FA20F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D67FC19-1BBE-4598-91FD-1CEC2D2FA20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D67FC19-1BBE-4598-91FD-1CEC2D2FA20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D67FC19-1BBE-4598-91FD-1CEC2D2FA20F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

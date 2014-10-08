@@ -1,0 +1,49 @@
+body {
+  background: url(./../images/bg-loginLanding.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.panel-default {
+    opacity: 0.8;
+    margin-top:30px;
+}
+.form-group.last { margin-bottom:0px; }
+
+.icon-depot {
+        background: url(./../images/icon-truck.png) no-repeat;
+        min-width: 120px;
+        min-height: 120px;
+        display: block;
+        margin: 0 auto;
+        width: 120px;
+}
+
+.icon-pump {
+        background: url(./../images/icon-pump.png) no-repeat;
+        min-width: 120px;
+        min-height: 120px;
+        display: block;
+        margin: 0 auto;
+        width: 120px;
+}
+
+.panel-default{
+    background: #202020;
+    color: white;
+    border: 1px solid white;
+}
+.depot-heading, .pump-heading {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    font-weight: normal;
+}
+
+.container-main {
+    padding-bottom: 30px;
+}

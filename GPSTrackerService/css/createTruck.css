@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-upperContainer {
+  background: url(./../images/bg-loginLanding.png) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  min-height: 240px;
+  height: 240px;
+}
+
+.panel-default {
+    margin-top:30px;
+}
+.form-group.last { margin-bottom:0px; }
+
+.icon-depot {
+        background: url(./../images/icon-truck.png) no-repeat;
+        min-width: 120px;
+        min-height: 120px;
+        display: block;
+        margin: 0 auto;
+        width: 120px;
+}
+
+.icon-pump {
+        background: url(./../images/icon-pump.png) no-repeat;
+        min-width: 120px;
+        min-height: 120px;
+        display: block;
+        margin: 0 auto;
+        width: 120px;
+}
+
+.panel-default{
+    color: white;
+    background: none;
+    border: none;
+}
+.depot-heading, .pump-heading {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-shadow: 2px 1px #202020;
+}
+
+.description {
+    text-align: center;
+    font-weight: normal;
+}
+
+.container-main {
+    padding-bottom: 30px;
+}
+
+.input-group-addon.primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+}
+.input-group-addon.success {
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 184, 92);
+    border-color: rgb(76, 174, 76);
+}
+.input-group-addon.info {
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 179, 215);
+    border-color: rgb(38, 154, 188);
+}
+.input-group-addon.warning {
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 173, 78);
+    border-color: rgb(238, 162, 54);
+}
+.input-group-addon.danger {
+    color: rgb(255, 255, 255);
+    background-color: rgb(217, 83, 79);
+    border-color: rgb(212, 63, 58);
+}
+
+.padding-override{
+    padding-left: 0;
+}
+
+.adjust{
+    float:left !important;
+}
+.margin-override{
+    margin: 25px 0;
+}
+
+.adjustRight {
+    float:right;
+    margin-right: 30px;
+}
+
+.input-group{
+    padding: 10px !important;
+    margin: 0 10px !important;
+}
+.form-group label {
+    margin-top: 10px;
+}

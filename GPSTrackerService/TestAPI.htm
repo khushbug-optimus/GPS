@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="Scripts/jquery-1.4.1.js" type="text/javascript"></script>
+      <script>
+      function BtnClick() {
+          alert("hi");
+          var obj = {};
+          obj.UserName = "khushbu";
+          obj.Password = "khushbu";
+          $.ajax({
+              type: "POST",
+              url: "http://localhost:1488/GPSTrackerService.svc/AuthenticateUser",
+              contentType: "application/json",
+              dataType: "json",
+              crossDomain: true,
+              data: JSON.stringify(obj),
+//               { UserName: 'khushbu', Password:'khushbu' },
+              success: function (response) {
+                  console.log(response);
+              },
+              error: function (jqXHR, status) {
+                  // error handler
+                  console.log(jqXHR);
+                  alert('fail ' + status.code);
+                  return false;
+              }
+          });
+          return false;
+      }
+     
+  </script>
+</head>
+<body>
+Hello this is a page to test api method
+<input type="button" value="click me" id="btnSubmit" onclick="BtnClick();"/>
+</body>
+</html>
